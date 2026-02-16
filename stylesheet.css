@@ -8,6 +8,7 @@
 }
 body {
     background-color: rgb(255 255 255);
+    overflow-x: hidden;
 }
 h1 {
     font-family: "IBM Plex Sans";
@@ -74,8 +75,24 @@ h1 {
     }
 }
 .aboutme {
-    align-items: center;
+    display: flex;
     justify-content: center;
     height: 80vh;
     width: 100vw;
+    flex-direction: column;
+    gap: 2.5%;
+}
+.speechbubble {
+    height: 72.5%;
+}
+.speechman {
+    height: 12.5%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.speechman:hover {
+    transform: scale(1.1);
+}
+.speechman:active {
+    transform: scale(0.9);
 }
