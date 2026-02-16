@@ -73,3 +73,9 @@ h1 {
 
     }
 }
+.aboutme {
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+}
