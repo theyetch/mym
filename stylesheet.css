@@ -14,10 +14,17 @@ h1 {
     font-family: "IBM Plex Sans";
     text-align: center;
 }
+h2 {
+    font-family: "IBM Plex Sans";
+}
+p {
+    font-family: "IBM Plex Sans";
+}
 .lander {
     background-image: url(assets/technical/test-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-y: hidden;
 }
 .homebutton {
     display: flex;
@@ -84,6 +91,20 @@ h1 {
 }
 .speechbubble {
     height: 72.5%;
+    display: block;
+}
+.scrollbox {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 32vh;
+    height: 39%;
+    overflow-y: auto;
+    background: transparent;
+    padding: 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 .speechman {
     height: 12.5%;
