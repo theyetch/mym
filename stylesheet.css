@@ -1,3 +1,5 @@
+/*import IBM Plex Sans*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 /*sets default margins and padding to 0*/
 * {
     margin: 0;
@@ -6,6 +8,10 @@
 }
 body {
     background-color: rgb(255 255 255);
+}
+h1 {
+    font-family: "IBM Plex Sans";
+    text-align: center;
 }
 .lander {
     background-image: url(assets/technical/test-bg.jpg);
