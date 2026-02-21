@@ -1,119 +1,13 @@
-/*import IBM Plex Sans*/
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-/*sets default margins and padding to 0*/
-* {
+.pagewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background-color: rgb(255 255 255);
-    overflow-x: hidden;
-}
-h1 {
-    font-family: "IBM Plex Sans";
-    text-align: center;
-}
-h2 {
-    font-family: "IBM Plex Sans";
-}
-p {
-    font-family: "IBM Plex Sans";
-}
-.lander {
-    background-image: url(assets/technical/test-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-y: hidden;
-}
-.homebutton {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-    width: 100vw;
-}
-.homebutton img {
-    max-height: 5vh;
-    max-width: 5vw;
-    aspect-ratio: 1/1;
-    display: block;
-}
-.homebutton a {
-    text-decoration: none;
-    transition: transform 0.2s ease;
-}
-.homebutton a:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-.homebutton a:active {
-    transform: scale(0.9);
-}
-.herdofshapemen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    width: 100vw;
-    gap: 10vh;
-}
-.herdofshapemen img {
-    max-height: 20vh;
-    max-width: 20vw;
-    aspect-ratio: 1/1;
-    display: block;
-}
-.herdofshapemen a {
-    text-decoration: none;
-    transition: transform 0.2s ease;
-}
-.herdofshapemen a:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-.herdofshapemen a:active {
-    transform: scale(0.9);
-}
-@media (max-aspect-ratio: 1/1) {
-    .herdofshapemen {
-        flex-direction: column;
-
-    }
-}
-.aboutme {
-    display: flex;
-    justify-content: center;
-    height: 80vh;
-    width: 100vw;
     flex-direction: column;
-    gap: 2.5%;
 }
-.speechbubble {
-    height: 72.5%;
-    display: block;
-}
-.scrollbox {
-    position: absolute;
-    top: 27%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 32vh;
-    height: 39%;
-    overflow-y: auto;
-    background: transparent;
-    padding: 0;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-}
-.speechman {
-    height: 12.5%;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-.speechman:hover {
-    transform: scale(1.1);
-}
-.speechman:active {
-    transform: scale(0.9);
+.noscroll {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
