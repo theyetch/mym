@@ -11,9 +11,9 @@ body {
     padding: 0;
 }
 
-@media screen and (max-aspect-ratio: 9/16) {
+@media screen and (max-width: 768px) {
     body {
-        width: 100%;
+        width: 90%;
         /* Set the width to full for small screens */
     }
 }
