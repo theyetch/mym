@@ -10,7 +10,7 @@ body {
     width: 60%
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-aspect-ratio: 9/16) {
     body {
         width: 100%;
         /* Set the width to full for small screens */
