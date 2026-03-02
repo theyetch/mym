@@ -14,9 +14,6 @@ body {
     body {
         width: 100%;
         /* Set the width to full for small screens */
-        padding-left: 20px;
-        padding-right: 20px;
-        box-sizing: border-box;
     }
 }
 
