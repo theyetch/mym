@@ -7,7 +7,8 @@ body {
     background-color: rgb(250, 242, 226);
     color: black;
     font-family: Cambria, serif;
-    width: 60%
+    width: 60%;
+    padding: 0;
 }
 
 @media screen and (max-aspect-ratio: 9/16) {
