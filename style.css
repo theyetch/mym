@@ -14,6 +14,9 @@ body {
     body {
         width: 100%;
         /* Set the width to full for small screens */
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
     }
 }
 
@@ -78,8 +81,4 @@ sup {
     position: relative;
     top: -0.3em;
     /* Adjusts placement to avoid excessive height changes */
-}
-
-.tab {
-    text-indent: 40px
 }
