@@ -80,3 +80,7 @@ sup {
     top: -0.3em;
     /* Adjusts placement to avoid excessive height changes */
 }
+
+.resized {
+    width: 50%;
+}
