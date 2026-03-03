@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
-   sodipodi:docname="favicon.svg"
+   sodipodi:docname="faviconflat.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -35,18 +35,6 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
-    <linearGradient
-       id="linearGradient13"
-       inkscape:collect="always">
-      <stop
-         style="stop-color:#fffdae;stop-opacity:1;"
-         offset="0"
-         id="stop13" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop14" />
-    </linearGradient>
     <inkscape:path-effect
        effect="fillet_chamfer"
        id="path-effect13"
@@ -230,16 +218,6 @@
        apply_with_radius="true"
        only_selected="false"
        hide_knots="false" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient13"
-       id="radialGradient14"
-       cx="150"
-       cy="150"
-       fx="150"
-       fy="150"
-       r="150"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -307,16 +285,5 @@
          sodipodi:type="rect"
          d="m 24.25,16 h 1.5 A 0.25,0.25 45 0 1 26,16.25 l 0,9.5 A 0.25,0.25 135 0 1 25.75,26 h -1.5 A 0.25,0.25 45 0 1 24,25.75 v -9.5 A 0.25,0.25 135 0 1 24.25,16 Z" />
     </g>
-    <path
-       style="fill:url(#radialGradient14);fill-opacity:1;stroke-width:4.28571;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke markers fill;opacity:0.40291262"
-       id="rect4-5"
-       width="300"
-       height="300"
-       x="0"
-       y="0"
-       inkscape:label="center field"
-       inkscape:path-effect="#path-effect9-5"
-       sodipodi:type="rect"
-       d="m 45,0 h 210 a 45,45 45 0 1 45,45 v 210 a 45,45 135 0 1 -45,45 H 45 A 45,45 45 0 1 0,255 V 45 A 45,45 135 0 1 45,0 Z" />
   </g>
 </svg>
