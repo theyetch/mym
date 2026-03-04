@@ -84,3 +84,30 @@ sup {
 .resized {
     width: 50%;
 }
+
+button.speechman {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+img.speechman {
+    width: 10vh;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+img.speechman:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s;
+}
+
+img.speechman:active {
+    transform: scale(0.95);
+    transition: transform 0.1s;
+}
