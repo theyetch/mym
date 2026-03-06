@@ -57,7 +57,7 @@ hr {
 }
 
 blockquote {
-    max-width: 50%;
+    max-width: 60%;
     /* Slightly thinner than body */
     margin: 1em auto;
     /* Centering */
