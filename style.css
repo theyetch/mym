@@ -11,13 +11,6 @@ body {
     padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-        width: 90%;
-        /* Set the width to full for small screens */
-    }
-}
-
 .center {
     display: block;
     margin-left: auto;
@@ -82,7 +75,9 @@ sup {
 }
 
 .resized {
+    display:block;
     width: 50%;
+    padding-bottom: 4%;
 }
 
 .speechman {
@@ -103,4 +98,15 @@ sup {
 .speechman:active {
     transform: scale(0.95);
     transition: transform 0.1s;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 90%;
+        /* Set the width to full for small screens */
+    }
+
+    .resized {
+        width: 100%;
+    }
 }
