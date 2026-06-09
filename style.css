@@ -109,6 +109,14 @@ sup {
     height: 75vh;
 }
 
+.sitename {
+    margin-bottom: 1%;
+}
+
+#slogan {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 768px) {
     body {
         width: 90%;
