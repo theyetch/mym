@@ -30,6 +30,22 @@ const slogans = [
     "Al otro lado del río!",
     "Reduced fat!",
     "Low sodium!",
+    "Now subject to enshittification!",
+    "Intellectually stimulating!",
+    "Contains small parts!",
+    "Choking hazard!",
+    "Omniscient, omnipotent, and omnibenevolent!",
+    "As seen on TV!",
+    "Ass seen on TV!",
+    "Refurbished!",
+    "Legal in all 50 states!",
+    "Not canon!",
+    "Unauthorized!",
+    "Good for you!",
+    "Part of a balanced breakfast!",
+    "All rights reserved!",
+    "You'll be hearing from my lawyer!",
+    "Supercalifragilisticexpialidocious!",
 ];
 
 const pick = Math.floor(Math.random() * slogans.length);
