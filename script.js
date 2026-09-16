@@ -46,6 +46,8 @@ const slogans = [
     "All rights reserved!",
     "You'll be hearing from my lawyer!",
     "Supercalifragilisticexpialidocious!",
+    "Collegiate!",
+    "Out to lunch!",
 ];
 
 const pick = Math.floor(Math.random() * slogans.length);
