@@ -4,12 +4,6 @@ function playSound() {
     sound.play();
 }
 
-function filter() {
-  const q = document.getElementById('q').value.toLowerCase();
-  document.querySelectorAll('.item').forEach(el => {
-    el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
-  });
-
 const slogans = [
     "From cows not treated with rBST!",
     "40% oats!",
