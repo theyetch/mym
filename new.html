@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Button</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="img/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="center">
+    <h2><a href="index.html" class="homebutton">❦</a> The Button</h2>
+    <hr />
+
+<h2>(<span id="typed"></span>)</h2>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0"></script>
+<script>
+  new Typed('#typed', {
+    strings: [
+      'Hola, soy Marcelo.', // Spanish
+      'Hallo, ich heiße Marcelo.', // German
+      'Wei, vinei Marcelo.', // Kwa'aar
+    ],
+    typeSpeed: 60,    // ms per character typed
+    backSpeed: 35,    // ms per character deleted
+    backDelay: 1500,  // pause before deleting
+    startDelay: 300,
+    loop: true,
+    showCursor: true
+  });
+</script>
+
+    <hr />
+    <a href="index.html">Back</a>
+</body>
+
+</html>

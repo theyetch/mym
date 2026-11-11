@@ -127,3 +127,6 @@ sup {
         width: 100%;
     }
 }
+
+/* only for test (new.html) */
+.page-subtitle-zhtw{color:#303030;font-family:'Noto Sans TC', sans-serif;font-size:1.5rem;letter-spacing:0.03em;font-weight:100;text-align:center;word-wrap:break-word;margin-top:-1.8rem;margin-bottom:2rem}
